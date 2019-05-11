@@ -1,0 +1,137 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>구세영 </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href='{% static "vendor/bootstrap/css/bootstrap.min.css" %}' rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href='{% static "css/resume.min.css" %}' rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src='{% static "img/pro.jpg" %}' alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Service</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Koo
+          <span class="text-primary">Seyoung</span>
+        </h1>
+        <div class="subheading mb-5">DUKSUNG WOMEN's UNIVERSITY 
+          <a href="">LIKELION 7th</a>
+        </div>
+        <p class="lead mb-5">안녕하세요. 덕성여대 컴퓨터공학과 3학년 재학 중인 구세영 입니다. 멋쟁이 사자처럼 7기 입니다. <br />
+          멋쟁이 사자처럼을 통해 많은 것을 배우고 싶습니다! 잘부탁드립니다!
+        </p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/people/Seyoung-Koo/100011443981746">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+          <a href="https://www.instagram.com/93o_oy/">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://github.com/koosy123">
+            <i class="fab fa-github"></i>
+          </a>
+          
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">My Service</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Farming Web Service</h3>
+            <div class="subheading mb-3">농사 웹페이지</div>
+            <p>
+              아빠의 고향이 강화여서 시골에 자주 갔었습니다. 그 때마다 친척들이 농사를 열심히 지었는데도 판매에 어려움을 겪고있었습니다. 
+              그래서 시골에 컴퓨터를 잘 모르는 사람들을 위해 홍보 판매를 전문으로 하는 농가 유통 플랫폼을 만들고 싶습니다. 
+              그래서 서울같은 대도시의 소비자들에게 시골의 좋은 농사물을 잘 알릴 수 있는 그런 웹페이지를 만들어서 도와주고 싶습니다. 
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">History Web Serivce</h3>
+            <div class="subheading mb-3">역사 웹페이지</div>
+            <p>최근에 삼일절을 맞아 독립선언식이 열렸던 태화관이라는 곳을 모르는 사람들이 100명 중 79명이 된다는 기사를 보았다.
+               나도 역시 그런 역사에 무지합니다. 어렸을 때부터 역사는 어렵다고 생각했습니다.
+                그래서 어린이들이나 청소년들이 역사를 즐기면서 공부할 수 있는 웹페이지를 만들고 싶습니다.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2019</span>
+          </div>
+        </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+   
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src='{% static "vendor/jquery/jquery.min.js" %}'></script>
+  <script src='{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}'></script>
+
+  <!-- Plugin JavaScript -->
+  <script src='{% static "vendor/jquery-easing/jquery.easing.min.js" %}'></script>
+
+  <!-- Custom scripts for this template -->
+  <script src='{% static "js/resume.min.js" %}'></script>
+
+</body>
+
+</html>
